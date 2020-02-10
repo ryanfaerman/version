@@ -1,0 +1,1 @@
+go build -ldflags="-X github.com/ryanfaerman/version.BuildTag=v0.0.9 -X github.com/ryanfaerman/version.CommitHash=fdcad803 -X github.com/ryanfaerman/version.ApplicationName=my-awesome-app -X github.com/ryanfaerman/version.BuildDate=`date -u +%Y-%m-%d-%H:%M:%S` -X \"github.com/ryanfaerman/version.Template={{.ApplicationName}} version {{.BuildTag}} -- Happy Hacking 🦊\""
